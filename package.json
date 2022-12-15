@@ -1,0 +1,35 @@
+{
+  "name": "window",
+  "homepage": "https://Proha0230.github.io/Project_JS_Irvas_Okna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build-prod-js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.0",
+    "browser-sync": "^2.26.7",
+    "core-js": "^3.4.2",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "webpack": "^5.75.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
